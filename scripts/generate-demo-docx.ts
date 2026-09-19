@@ -51,7 +51,7 @@ async function main() {
   const buffer = await Packer.toBuffer(doc);
   const outDir = path.join(process.cwd(), "public", "demo-contract");
   mkdirSync(outDir, { recursive: true });
-  const outPath = path.join(outDir, "demo-contractor-agreement.docx");
+  const outPath = path.join(outDir, "demo-contractor-agreementfinal.docx");
   writeFileSync(outPath, buffer);
   console.log(`Wrote ${outPath} (${buffer.length} bytes)`);
 }

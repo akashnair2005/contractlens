@@ -52,7 +52,7 @@ function UploadPageInner() {
     setStatus("processing");
     setError(null);
     try {
-      const fileRes = await fetch("/demo-contract/demo-contractor-agreement.docx", {
+      const fileRes = await fetch("/demo-contract/demo-contractor-agreementfinal.docx", {
         cache: "no-store",
       });
       if (!fileRes.ok) {
@@ -70,7 +70,7 @@ function UploadPageInner() {
       if (blob.size === 0) {
         throw new Error("Demo contract response was empty.");
       }
-      const file = new File([blob], "demo-contractor-agreement.docx", {
+      const file = new File([blob], "demo-contractor-agreementfinal.docx", {
         type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       });
       await runAnalysis(file);

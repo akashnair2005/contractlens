@@ -1,7 +1,7 @@
 import { runAnalysisPipeline } from "../lib/analyze";
 import { demoContractText } from "./demo-contract-text";
 
-const result = runAnalysisPipeline(demoContractText, "demo-contractor-agreement.docx");
+const result = runAnalysisPipeline(demoContractText, "demo-contractor-agreementfinal.docx");
 
 console.log("Overall score:", result.overallScore, result.overallLevel);
 console.log("Distribution:", result.distribution);

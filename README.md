@@ -188,7 +188,7 @@ contract through the exact same `/api/analyze` pipeline as any other file.
 ### Regenerating the demo contract
 
 The demo contract is a real `.docx` file at
-`public/demo-contract/demo-contractor-agreement.docx`, generated from
+`public/demo-contract/demo-contractor-agreementfinal.docx`, generated from
 `scripts/demo-contract-text.ts`:
 
 ```bash
