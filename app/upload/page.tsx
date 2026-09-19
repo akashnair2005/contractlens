@@ -52,8 +52,24 @@ function UploadPageInner() {
     setStatus("processing");
     setError(null);
     try {
-      const fileRes = await fetch("/demo-contract/demo-contractor-agreement.docx");
+      const fileRes = await fetch("/demo-contract/demo-contractor-agreement.docx", {
+        cache: "no-store",
+      });
+      if (!fileRes.ok) {
+        throw new Error(`Demo contract request failed with status ${fileRes.status}.`);
+      }
+      const contentType = fileRes.headers.get("content-type")?.toLowerCase() ?? "";
+      if (
+        contentType &&
+        !contentType.includes("application/vnd.openxmlformats-officedocument.wordprocessingml.document") &&
+        !contentType.includes("application/octet-stream")
+      ) {
+        throw new Error(`Demo contract returned an unexpected content type: ${contentType}.`);
+      }
       const blob = await fileRes.blob();
+      if (blob.size === 0) {
+        throw new Error("Demo contract response was empty.");
+      }
       const file = new File([blob], "demo-contractor-agreement.docx", {
         type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       });
