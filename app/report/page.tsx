@@ -174,3 +174,4 @@ function buildTextReport(result: AnalysisResult): string {
   );
   return lines.join("\n");
 }
+// Final repository verification marker.

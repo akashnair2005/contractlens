@@ -38,3 +38,4 @@ export async function extractText(
     "UNSUPPORTED_FILE"
   );
 }
+// Final repository verification marker.

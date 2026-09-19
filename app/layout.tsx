@@ -20,3 +20,4 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </html>
   );
 }
+// Final repository verification marker.

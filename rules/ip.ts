@@ -66,3 +66,4 @@ export const ipRules: Rule[] = [
     suggestedAction: "Usually no action needed — this is boilerplate rather than a rights transfer.",
   },
 ];
+// Final repository verification marker.

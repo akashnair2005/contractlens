@@ -104,3 +104,4 @@ describe("Analysis pipeline error handling", () => {
     expect(() => segmentClauses(text)).not.toThrow();
   });
 });
+// Final repository verification marker.

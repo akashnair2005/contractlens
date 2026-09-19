@@ -104,3 +104,4 @@ export interface AnalyzeErrorResponse {
     | "SERVER_ERROR";
   detail?: string;
 }
+// Final repository verification marker.

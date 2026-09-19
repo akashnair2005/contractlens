@@ -29,3 +29,4 @@ function getServerSnapshot(): AnalysisResult | null {
 export function useAnalysisResult(): AnalysisResult | null {
   return useSyncExternalStore(subscribe, loadAnalysisResult, getServerSnapshot);
 }
+// Final repository verification marker.

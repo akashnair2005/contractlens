@@ -84,3 +84,4 @@ export const liabilityRules: Rule[] = [
     suggestedAction: "Consider asking whether both parties can mutually exclude liability for consequential or indirect damages.",
   },
 ];
+// Final repository verification marker.

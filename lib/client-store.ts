@@ -79,3 +79,4 @@ export function markFindingReviewed(findingId: string, reviewed: boolean) {
   saveAnalysisResult(updated);
   return updated;
 }
+// Final repository verification marker.

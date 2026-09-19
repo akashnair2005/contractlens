@@ -13,3 +13,4 @@ export function DisclaimerBanner({ compact = false }: { compact?: boolean }) {
     </div>
   );
 }
+// Final repository verification marker.

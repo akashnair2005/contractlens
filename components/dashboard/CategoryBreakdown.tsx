@@ -20,3 +20,4 @@ export function CategoryBreakdown({ categories }: { categories: CategorySummary[
     </ul>
   );
 }
+// Final repository verification marker.

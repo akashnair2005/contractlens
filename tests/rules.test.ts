@@ -253,3 +253,4 @@ describe("Clause segmentation", () => {
     expect(clauses.every((c) => c.text.trim().length > 5)).toBe(true);
   });
 });
+// Final repository verification marker.

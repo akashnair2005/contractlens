@@ -16,3 +16,4 @@ for (const f of result.topPriorities) {
   console.log(`  [${f.riskLevel}] ${f.category} - ${f.whatItSays} (score ${f.score})`);
   console.log(`    signals: ${f.detectedSignals.join(", ")}`);
 }
+// Final repository verification marker.

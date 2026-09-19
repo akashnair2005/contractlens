@@ -30,3 +30,4 @@ export function RiskBadge({
     </span>
   );
 }
+// Final repository verification marker.

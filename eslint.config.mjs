@@ -16,3 +16,4 @@ const eslintConfig = defineConfig([
 ]);
 
 export default eslintConfig;
+// Final repository verification marker.

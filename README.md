@@ -293,3 +293,4 @@ explainable recommendations are enough to turn "here's a 12-page PDF" into
 "here are the three things you should ask about, and why." The demo
 contract runs through the identical pipeline as any uploaded file — there
 is no hard-coded demo path.
+<!-- Final repository verification marker. -->

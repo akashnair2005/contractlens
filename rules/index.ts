@@ -32,3 +32,4 @@ export {
   penaltiesRules,
   disputesRules,
 };
+// Final repository verification marker.

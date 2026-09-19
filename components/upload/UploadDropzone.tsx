@@ -169,3 +169,4 @@ function FileIcon() {
     </svg>
   );
 }
+// Final repository verification marker.

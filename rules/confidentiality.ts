@@ -40,3 +40,4 @@ export const confidentialityRules: Rule[] = [
     suggestedAction: "Ask for standard carve-outs: information that's public, already known, or independently developed shouldn't count as confidential.",
   },
 ];
+// Final repository verification marker.

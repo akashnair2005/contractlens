@@ -119,3 +119,4 @@ function mergeShortFragments(clauses: Clause[]): Clause[] {
   // Re-index after merging
   return merged.map((c, i) => ({ ...c, id: `clause-${i}`, index: i }));
 }
+// Final repository verification marker.

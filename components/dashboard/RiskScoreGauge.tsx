@@ -52,3 +52,4 @@ export function RiskScoreGauge({ score, level }: { score: number; level: RiskLev
     </div>
   );
 }
+// Final repository verification marker.

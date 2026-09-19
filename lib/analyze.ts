@@ -80,3 +80,4 @@ export function runAnalysisPipeline(
 
   return result;
 }
+// Final repository verification marker.

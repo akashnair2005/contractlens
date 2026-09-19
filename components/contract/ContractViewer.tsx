@@ -72,3 +72,4 @@ function stripHeading(text: string, heading: string): string {
   }
   return text;
 }
+// Final repository verification marker.

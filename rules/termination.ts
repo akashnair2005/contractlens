@@ -59,3 +59,4 @@ export const terminationRules: Rule[] = [
     suggestedAction: "Ask what it would take to exit early, and whether an early-termination fee could be capped or removed.",
   },
 ];
+// Final repository verification marker.

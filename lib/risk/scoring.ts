@@ -78,3 +78,4 @@ export function computeCategorySummaries(
 export function computeTopPriorities(findings: ClauseFinding[], limit = 5): ClauseFinding[] {
   return [...findings].sort((a, b) => b.score - a.score).slice(0, limit);
 }
+// Final repository verification marker.

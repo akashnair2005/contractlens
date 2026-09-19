@@ -53,3 +53,4 @@ export async function extractPdfText(buffer: Buffer): Promise<string> {
     await doc.destroy();
   }
 }
+// Final repository verification marker.

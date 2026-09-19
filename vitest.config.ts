@@ -12,3 +12,4 @@ export default defineConfig({
     include: ["tests/**/*.test.ts"],
   },
 });
+// Final repository verification marker.

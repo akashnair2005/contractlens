@@ -57,3 +57,4 @@ export const restrictionsRules: Rule[] = [
     suggestedAction: "Ask whether exclusivity is necessary, or whether it can be limited to a specific scope, client list, or time period.",
   },
 ];
+// Final repository verification marker.

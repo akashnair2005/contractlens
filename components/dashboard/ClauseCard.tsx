@@ -30,3 +30,4 @@ export function ClauseCard({ finding, rank }: { finding: ClauseFinding; rank?: n
     </Link>
   );
 }
+// Final repository verification marker.
